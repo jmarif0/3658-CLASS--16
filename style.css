@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* HEADER STYLE */
+.header{
+    background: #101446;
+    padding: 15px 0;
+ 
+}   
+.header_menu{
+    text-align: right;
+}
+.header img{
+    width: 100px;
+    height: auto;   
+}
+
+.header nav{
+display: inline-block; 
+}
+.header nav a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #fff;
+    line-height: 60px;
+    font-weight: bold;
+    transition: .5s;
+}
+.header nav a:hover{
+    color: #f1c40f;
+}
+
+/* BANNER STYLE */
+.banner{
+    background-image: url("https://img.hotimg.com/intro-bg710f69a42df63300.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 250px 0;
+    text-align: center;
+    color: #fff;
+   
+}
+
+.banner span a{
+    background: #337ab7;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    border-radius: 5px;
+    z-index: 1;
+    transition: .5s;
+}
+.banner span:hover a{
+    color: #000;
+
+}
+.banner span a::after{
+    content: "";
+    height: 100%;
+    width: 0%;
+    background: #c07f07;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+    
+}
+.banner span a:hover::after{
+    width: 100%;
+    
+}
+
+/* TEAM SECTION */
+.team{
+    background: #bac1f3;
+    padding: 100px 0;
+}
+.team h2{
+    margin: 20px 0;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.team .team-member span a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* ABOUT SECTION */
+.about{
+    background: #c2d4ea;
+    padding: 100px 0;
+}
+
+.text_justify{
+    text-align: justify;
+}
+
+/* CONTACT STYLE */
+iframe{
+    box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, .5);
+}
+
+/* FOOTER STYLE */
+.footer .copyright{
+    margin-bottom: -5px;
+}
